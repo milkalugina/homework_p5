@@ -1,0 +1,122 @@
+@import "reset.css";
+
+@font-face {
+  font-family: 'Bitum';
+  src:url('../fonts/bitum-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bitum Italic';
+  src:url('../fonts/bitum-regular-italic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bitum';
+  src:url('../fonts/bitumbold.ttf') format('truetype');
+  font-weight: italic;
+  font-style: normal;
+}
+
+body {
+  background: black;
+}
+
+.sketch_1 {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+
+}
+
+.sketch_2 {
+  position: absolute;
+  top: 200px;
+  left: 450px;
+  display: block;
+}
+
+.sketch_3 {
+  position: absolute;
+  top: 200px;
+  left: 850px;
+  display: block;
+}
+
+.sketch_4 {
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  top: 200px;
+  left: 1250px;
+  display: block;
+}
+
+h1 {
+  position: relative;
+  font-family: 'Bitum';
+  font-weight: bold;
+  font-size: 8vh;
+  color: white;
+  padding-left: 2vw;
+  padding-top: 1vh;
+}
+
+hr {
+  position: ;
+  color: white;
+  size: 5px;
+}
+
+#task_1 {
+  position: relative;
+  display: inline-block;
+  font-family: 'Bitum Italic';
+  font-weight: italic;
+  font-size: 3vh;
+  color: white;
+  top: 70px;
+  left: 50px;
+}
+#task_2 {
+  position: relative;
+  display: inline-block;
+  font-family: 'Bitum Italic';
+  font-weight: italic;
+  font-size: 3vh;
+  color: white;
+  top: 70px;
+  left: 352px;
+}
+#task_3 {
+  position: relative;
+  display: inline-block;
+  font-family: 'Bitum Italic';
+  font-weight: italic;
+  font-size: 3vh;
+  color: white;
+  top: 70px;
+  left: 512px;
+}
+#task_4 {
+  position: relative;
+  display: inline-block;
+  font-family: 'Bitum Italic';
+  font-weight: italic;
+  font-size: 3vh;
+  color: white;
+  top: 70px;
+  left: 806px;
+}
+
+a {
+  float: right;
+  position: relative;
+  font-family: 'Bitum Italic';
+  font-weight: italic;
+  font-size: 3vh;
+  color: white;
+  top: 750px;
+  right: 20px;
+}
