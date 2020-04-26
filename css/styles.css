@@ -110,6 +110,48 @@ hr {
   left: 806px;
 }
 
+#explanation_1 {
+  position: relative;
+  display: inline-block;
+  font-family: 'Bitum Italic';
+  font-weight: italic;
+  font-size: 1.5vh;
+  color: white;
+  top: 479px;
+  left: 50px;
+}
+
+#explanation_2 {
+  position: relative;
+  display: inline-block;
+  font-family: 'Bitum Italic';
+  font-weight: italic;
+  font-size: 1.5vh;
+  color: white;
+  top: 479px;
+  left: 277px;
+}
+#explanation_3 {
+  position: relative;
+  display: inline-block;
+  font-family: 'Bitum Italic';
+  font-weight: italic;
+  font-size: 1.5vh;
+  color: white;
+  top: 479px;
+  left: 480px;
+}
+#explanation_4 {
+  position: relative;
+  display: inline-block;
+  font-family: 'Bitum Italic';
+  font-weight: italic;
+  font-size: 1.5vh;
+  color: white;
+  top: 479px;
+  left: 573px;
+}
+
 a {
   float: right;
   position: relative;
