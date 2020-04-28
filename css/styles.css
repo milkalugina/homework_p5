@@ -31,6 +31,8 @@ body {
 }
 
 .sketch_2 {
+  width: 350px;
+  height: 400px;
   position: absolute;
   top: 200px;
   left: 450px;
@@ -38,6 +40,8 @@ body {
 }
 
 .sketch_3 {
+  width: 350px;
+  height: 400px;
   position: absolute;
   top: 200px;
   left: 850px;
@@ -141,6 +145,7 @@ hr {
   top: 479px;
   left: 480px;
 }
+
 #explanation_4 {
   position: relative;
   display: inline-block;

@@ -44,29 +44,29 @@ const s = p => {
 }
 new p5(s);
 
-const canvas_container2 = sketch_2 => {
-  let box = {
-    x: 0,
-    y: 0
-  }
-
-  let extraCanvas;
-
-  sketch_2.setup = function() {
-    let cnv = sketch_2.createCanvas(350, 400);
-    cnv.class('sketch_2');
-    sketch_2.background(255);
-    let extraCanvas = sketch_2.createGraphics(350, 400);
-  }
-
-  sketch_2.draw = function() {
-    if (sketch_2.mouseIsPressed) {
-      extraCanvas.fill(255, 0, 0);
-      extraCanvas.ellipse(mouseX, mouseY, 50);
-    }
-    image(extraCanvas, 0, 0);
-  }
-
-}
-
-new p5(canvas_container2);
+// const canvas_container2 = sketch_2 => {
+//   let box = {
+//     x: 0,
+//     y: 0
+//   }
+//
+//   let extraCanvas;
+//
+//   sketch_2.setup = function() {
+//     let cnv = sketch_2.createCanvas(350, 400);
+//     cnv.class('sketch_2');
+//     sketch_2.background(255);
+//     let extraCanvas = sketch_2.createGraphics(350, 400);
+//   }
+//
+//   sketch_2.draw = function() {
+//     if (sketch_2.mouseIsPressed) {
+//       extraCanvas.fill(255, 0, 0);
+//       extraCanvas.ellipse(mouseX, mouseY, 50);
+//     }
+//     image(extraCanvas, 0, 0);
+//   }
+//
+// }
+//
+// new p5(canvas_container2);
